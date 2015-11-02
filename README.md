@@ -1,9 +1,9 @@
 # grav-plugin-editlink
-Adds a link to the admin area page edit in frontend view
+Adds an edit link in frontend
 
 # Attention it is in Betta for now
 
-This little plugin does what it says, It just adds a button to the fornt end of the website on top of every edditable page, so you can click it and go directly to the admin area
+This little plugin does what it says, It just adds links in the frontend to edit, so you can click it and go directly to the admin area and edit corresponding page.
 
 ## How to Install
 Copy entire `editlink` folder to your `\users\plugins\`
@@ -12,4 +12,4 @@ Copy entire `editlink` folder to your `\users\plugins\`
 For now just enable the plugin to show the buttons and disalbe to hide.
 
 ## Planned
-To show buttons only when a logged in user in admin area is detected in session.
+To show links only when a logged in user in admin area is detected in session.
