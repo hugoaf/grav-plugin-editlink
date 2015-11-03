@@ -1,0 +1,47 @@
+name: Edit Link
+version: 0.1.0
+description: Adds a link to the editor in frontend pages
+icon: edit
+author:
+  name: Hugo Avila
+  email: hugoavila@sitoi.com
+  url: http://sitioi.com
+keywords: plugin, edit
+homepage: https://github.com/hugoaf/grav-plugin-editlink
+bugs: https://github.com/hugoaf/grav-plugin-editlink/issues
+license: MIT
+
+form:
+  validation: strict
+  fields:
+
+    enabled:
+      type: toggle
+      label: Plugin status
+      highlight: 1
+      default: 0
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    wraper:
+      type: toggle
+      label: Add a div wraper for positioning
+      highlight: 1
+      default: 1
+      options:
+        1: Enabled
+        0: Disabled
+      validate:
+        type: bool
+
+    align:
+      type: toggle
+      label: Align link to left or right
+      highlight: left
+      default: left
+      options:
+        left: Left
+        right: Right
